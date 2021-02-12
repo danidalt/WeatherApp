@@ -32,6 +32,10 @@ li {
   border-radius: 10px;
   max-width: 600px;
 }
+.info {
+  position: relative;
+  top: -84px;
+}
 
 .temperature {
   color: rgb(33, 33, 33);
