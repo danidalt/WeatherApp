@@ -8,7 +8,7 @@ h1 {
   font-size: 34px;
   font-weight: 100;
   line-height: 28px;
-  margin: 0;
+  margin-bottom: 0;
 }
 
 ul {
@@ -32,10 +32,6 @@ li {
   border-radius: 10px;
   max-width: 600px;
 }
-.info {
-  position: relative;
-  top: -64px;
-}
 
 .temperature {
   color: rgb(33, 33, 33);
@@ -52,6 +48,7 @@ li {
 .search-form {
   margin: 0 auto;
   display: block;
+  margin-bottom: 0;
 }
 
 #searchb {
@@ -83,4 +80,37 @@ li {
   color: white;
   font-size: 12px;
   text-align: center;
+}
+
+.info {
+  position: relative;
+  top: -84px;
+}
+///////////////
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
