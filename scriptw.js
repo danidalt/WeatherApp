@@ -8,6 +8,7 @@ function formatDate(timestamp) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
+
   let dayIndex = date.getDay();
   let days = [
     "Sunday",
@@ -19,6 +20,7 @@ function formatDate(timestamp) {
     "Saturday",
   ];
   let day = days[dayIndex];
+
   return `${day} ${hours}:${minutes}`;
 }
 
@@ -81,7 +83,6 @@ function dispalyForecast(response) {
         <strong>
           ${Math.round(forecast.main.temp_max)}°
         </strong>
-        ${Math.round(forecast.main.temp_min)}°
       </div>
     </div>
   `;
